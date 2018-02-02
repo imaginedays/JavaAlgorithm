@@ -1,14 +1,9 @@
 package com.algorithm.imaginedays.lib.base;
 
-import com.algorithm.imaginedays.lib.FileReadUtils;
+import com.algorithm.imaginedays.lib.utils.FileReadUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdIn;
 
 import static java.lang.System.out;
 
@@ -44,6 +39,7 @@ public class BinarySearch {
         {
             intArray[i] = integerList.get(i).intValue();
         }
+
         Arrays.sort(intArray);
         int key = 865397;
         int index = rank(key,intArray);

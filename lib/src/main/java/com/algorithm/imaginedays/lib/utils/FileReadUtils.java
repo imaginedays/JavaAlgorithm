@@ -1,4 +1,4 @@
-package com.algorithm.imaginedays.lib;
+package com.algorithm.imaginedays.lib.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
